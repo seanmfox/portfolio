@@ -1,0 +1,1 @@
+This project is a component of the Udacity Front-End Nanodegree Program.
