@@ -1,8 +1,8 @@
-#Description
+# Description
 
 This portfolio is a component of the Udacity Front-End Nanodegree Program.
 
-#Skills Incorporated
+# Skills Incorporated
 
 The following skills were used in developing this project:
 * HTML semantic structure
