@@ -9,3 +9,4 @@ The following skills were used in developing this project:
 * CSS flexbox
 * Media queries
 * Responsive web design
+* Version control
