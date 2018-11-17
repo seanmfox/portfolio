@@ -1,89 +1,263 @@
 body {
-    font-size: 18px;
+  font-size: 1.5rem;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 20px;
-    font-family: 'Julius Sans One', sans-serif;
-    margin-top: 20px
+  /* padding-right: 20px; */
+  font-family: "Julius Sans One", sans-serif;
+  margin: 20px 10px 0 10px;
 }
 
-.left-header {
-    width: 25%;
-    margin-top: 15px;
+.header-image {
+  width: 64px;
+  height: 64px;
 }
 
-.right-header {
-    text-align: right;
-    width: 75%;
+.left-header-text {
+  display: inline-block;
 }
 
 h1,
 h4 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
+.hamburger i {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: black;
+  border-radius: 3px;
+}
+
+.menu-toggle {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 1;
+  user-select: none;
+}
+
+.menu-toggle input {
+  height: 22px;
+  width: 33px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  top: -4px;
+  right: -4px;
+  opacity: 0;
+}
+
+.hamburger {
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  z-index: 1;
+  position: relative;
+}
+
+input[type="checkbox"]:checked ~ .hamburger {
+  transform: rotate(450deg);
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
+
+.nav-links {
+  position: absolute;
+  width: 100vw;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -100px;
+  background: #488ccf;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.nav-links a {
+  color: black;
+}
+
+input[type="checkbox"]:checked ~ ul {
+  transform: scale(1, 1);
+  opacity: 1;
+}
 
 /* Content */
 
+main {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.greeting {
+  text-align: center;
+}
+
 hr {
-    background-color: #7d97ad;
-    height: 5px;
-    border: none;
+  background-color: #488ccf;
+  height: 5px;
+  border: none;
 }
 
 .main-image {
-    width: 100%;
-}
-
-h2 {
-    color: darkgrey;
-    font-family: 'Julius Sans One', sans-serif;
+  width: 100%;
 }
 
 .works-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #488ccf;
+  border-radius: 0 0 15px 15px;
 }
 
 .project-wrap {
-    width: 350px;
-    text-align: center;
-    margin-bottom: 20px;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
 }
 
 .project-image {
-    height: 200px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.project-name {
+  font-family: "Cinzel Decorative", cursive;
+  margin-bottom: 0;
+  color: white;
+}
+
+.box-header {
+  border-radius: 10px 10px 0 0;
+  border: solid 1px;
+  text-align: center;
+  color: darkgrey;
+  font-family: "Julius Sans One", sans-serif;
+  margin-bottom: 0;
+}
+
+.pixel {
+  border-bottom: solid white;
+}
+
+.week-to-week {
+  border-top: solid white;
+}
+
+footer {
+  background: #488ccf;
+  height: 100px;
+}
+
+.footer-content {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.fab {
+  margin: 0 20px;
+  color: white;
+}
+
+@media screen and (min-width: 730px) {
+  .hamburger,
+  .menu-toggle input {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .left-header {
+    width: 50%;
+  }
+
+  .right-header {
+    width: 50%;
+  }
+
+  .menu-toggle {
+    position: relative;
+    right: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    right: 0px;
+    background: none;
+    transform: none;
+    justify-content: flex-end;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+
+  .works-container {
+    flex-wrap: nowrap;
+  }
+
+  .project-wrap {
+    width: 33.3%;
+  }
+
+  .project-image {
     width: 200px;
+    height: 200px;
+  }
+
+  .pixel {
+    border-bottom: none;
+    border-right: solid white;
+  }
+  
+  .week-to-week {
+    border-top: none;
+    border-left: solid white;
+  }
 }
 
-p {
-    font-family: 'Cinzel Decorative', cursive;
-    margin-bottom: 0;
-}
+@media screen and (min-width: 1230px) {
+  header,
+  main {
+    width: 1200px;
+    margin: 0 auto;
+  }
 
-@media screen and (min-width: 600px) {
-    .project-wrap {
-        width: 33.3%;
-    }
-}
+  header {
+    margin-top: 20px;
+  }
 
-@media screen and (min-width: 900px) {
-    body {
-        width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .project-image {
-        width: 300px;
-        height: 300px
-    }
+  .project-image {
+    width: 300px;
+    height: 300px;
+  }
 }
