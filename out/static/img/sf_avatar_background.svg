@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="83.019844mm"
+   height="79.475174mm"
+   viewBox="0 0 83.019844 79.475174"
+   version="1.1"
+   id="svg4610"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs4604">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4579">
+      <ellipse
+         style="opacity:1;fill:#5599ff;fill-opacity:1;stroke-width:0.24257264"
+         id="ellipse4581"
+         cx="98.937485"
+         cy="149.34212"
+         rx="39.996948"
+         ry="38.524616"
+         transform="matrix(0.99775555,-0.06696162,0.07283943,0.99734368,0,0)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="76.887894"
+     inkscape:cy="135.90359"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4607">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-85.490078,-105.31598)">
+    <g
+       id="g4589"
+       transform="translate(-6.6712646,43.569975)">
+      <ellipse
+         ry="39.737587"
+         rx="41.509922"
+         cy="101.4836"
+         cx="133.67126"
+         id="path4583"
+         style="opacity:1;fill:#5599ff;fill-opacity:1;stroke-width:0.22907788" />
+      <image
+         y="80.306252"
+         x="57.716969"
+         id="image4537"
+         preserveAspectRatio="none"
+         height="105.30417"
+         width="105.30417"
+         clip-path="url(#clipPath4579)"
+         transform="translate(24.034692,-40.951966)"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         xlink:href="C:\Users\User\Documents\Projects\portfolio\static\img\sf_avatar.png"
+         sodipodi:absref="C:\Users\User\Documents\Projects\portfolio\static\img\sf_avatar.png" />
+    </g>
+  </g>
+</svg>
