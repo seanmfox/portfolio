@@ -123,15 +123,22 @@ hr {
   width: 100%;
 }
 
-.works-container {
+.technologies-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: #488ccf;
   border-radius: 0 0 15px 15px;
+  border-left: solid 40px #488ccf;
+  border-bottom: solid 40px #488ccf;
+  border-right: solid 40px #488ccf
 }
 
-.project-wrap {
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technology-wrap, .project-wrap {
   width: 350px;
   text-align: center;
   padding: 20px;
@@ -158,12 +165,18 @@ hr {
   margin-bottom: 0;
 }
 
-.pixel {
-  border-bottom: solid white;
+.pixel, .technologies-container div:first-child {
+  border-bottom: solid #488ccf;
 }
 
-.week-to-week {
-  border-top: solid white;
+.week-to-week, .technologies-container div:last-child {
+  border-top: solid #488ccf;
+}
+
+.tech-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
 }
 
 footer {
@@ -221,11 +234,11 @@ footer {
     margin-left: 10px;
   }
 
-  .works-container {
+  .technologies-container, .works-container {
     flex-wrap: nowrap;
   }
 
-  .project-wrap {
+  .technology-wrap, .project-wrap {
     width: 33.3%;
   }
 
@@ -234,14 +247,14 @@ footer {
     height: 200px;
   }
 
-  .pixel {
+  .pixel, .technologies-container div:first-child {
     border-bottom: none;
-    border-right: solid white;
+    border-right: solid #488ccf;
   }
   
-  .week-to-week {
+  .week-to-week,.technologies-container div:last-child {
     border-top: none;
-    border-left: solid white;
+    border-left: solid #488ccf;
   }
 }
 
