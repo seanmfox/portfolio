@@ -11,7 +11,7 @@ const Header = () => (
         />
         <div className="left-header-text">
           <h1>Sean Fox</h1>
-          <h4>Front-End Developer</h4>
+          <h4>Web Developer</h4>
         </div>
       </div>
       <div className="right-header">

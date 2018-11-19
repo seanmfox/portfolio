@@ -82,6 +82,7 @@ input[type="checkbox"]:checked ~ .hamburger {
 .nav-links {
   position: absolute;
   width: 100vw;
+  height: 100vh;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 125px;
@@ -141,35 +142,82 @@ hr {
 .technology-wrap, .project-wrap {
   width: 350px;
   text-align: center;
+  position: relative;
+}
+
+.technology-wrap {
   padding: 20px;
 }
 
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  transition: opacity .5s;
+  opacity: 0;
+}
+
+.overlay:hover, .project-details:hover {
+  transition: opacity .5s;
+  opacity: 1;
+}
+
+.project-wrap {
+  margin: 20px;
+}
+
+.project-details {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: #488ccf;
+  transition: opacity .5s;
+  border-radius: 10px;
+  color: white;
+}
+
+.project-details a {
+  color: white;
+}
+
 .project-image {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
 .project-name {
   font-family: "Cinzel Decorative", cursive;
-  margin-bottom: 0;
-  color: white;
+  margin: 5px 0;
+  padding: 0;
+
+}
+
+.project-desc {
+  margin-top: 5px;
 }
 
 .box-header {
   border-radius: 10px 10px 0 0;
   border: solid 1px;
   text-align: center;
-  color: darkgrey;
+  color: black;
   font-family: "Julius Sans One", sans-serif;
   margin-bottom: 0;
 }
 
-.pixel, .technologies-container div:first-child {
+.technologies-container div:first-child {
   border-bottom: solid #488ccf;
 }
 
-.week-to-week, .technologies-container div:last-child {
+.technologies-container div:last-child {
   border-top: solid #488ccf;
 }
 
@@ -222,6 +270,7 @@ footer {
     flex-wrap: wrap;
     position: relative;
     width: 100%;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     right: 0px;
@@ -242,17 +291,21 @@ footer {
     width: 33.3%;
   }
 
-  .project-image {
-    width: 200px;
-    height: 200px;
+  .project-name {
+    margin-top: 20px;
   }
 
-  .pixel, .technologies-container div:first-child {
+  .project-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .technologies-container div:first-child {
     border-bottom: none;
     border-right: solid #488ccf;
   }
   
-  .week-to-week,.technologies-container div:last-child {
+  .technologies-container div:last-child {
     border-top: none;
     border-left: solid #488ccf;
   }
@@ -270,7 +323,7 @@ footer {
   }
 
   .project-image {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
   }
 }
