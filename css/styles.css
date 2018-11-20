@@ -160,7 +160,7 @@ hr {
   opacity: 0;
 }
 
-.overlay:hover, .project-details:hover {
+.overlay:hover, .project-details:hover, .project-details:active {
   transition: opacity .5s;
   opacity: 1;
 }
