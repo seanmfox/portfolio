@@ -43,7 +43,7 @@ var Footer = function Footer() {
     className: "fab fa-twitter fa-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -51,14 +51,14 @@ var Footer = function Footer() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fab fa-github fa-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 10
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -66,14 +66,14 @@ var Footer = function Footer() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fab fa-linkedin fa-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -81,14 +81,14 @@ var Footer = function Footer() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fab fa-dev fa-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 16
     },
     __self: this
   }))));
@@ -236,7 +236,27 @@ var Header = function Header() {
       lineNumber: 28
     },
     __self: this
-  }, "Home"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+  }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "right-header-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "About"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
@@ -10657,10 +10677,27 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-129696464-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: {
+      __html: "window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments)}\n        gtag('js', new Date());\n\n        gtag('config', 'UA-129696464-1');"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
     },
     __self: this
   }, "Sean Fox - Web Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -10668,7 +10705,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -10676,7 +10713,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -10686,7 +10723,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -10694,259 +10731,280 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     content: "width=device-width, initial-scale=1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 38
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "box-header",
+    className: "box-header technologies-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 43
     },
     __self: this
   }, "Technologies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "technologies-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "technology-wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 45
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    class: "fas fa-laptop-code fa-2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 46
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
     },
     __self: this
   }, "Front End"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "tech-list fe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 49
     },
     __self: this
   }, "Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 50
     },
     __self: this
   }, "CSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 51
     },
     __self: this
   }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 52
     },
     __self: this
   }, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 53
     },
     __self: this
   }, "Jest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 54
     },
     __self: this
   }, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 55
     },
     __self: this
   }, "Ruby on Rails"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "technology-wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 58
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    class: "fas fa-database fa-2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 59
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
     },
     __self: this
   }, "Back End"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "tech-list be",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 62
     },
     __self: this
   }, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 63
     },
     __self: this
   }, "MongoDB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 64
     },
     __self: this
   }, "Mongoose"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 65
     },
     __self: this
   }, "MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 66
     },
     __self: this
   }, "Node"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 67
     },
     __self: this
   }, "Postgresql"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 68
     },
     __self: this
   }, "Ruby on Rails"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "technology-wrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    class: "fas fa-toolbox fa-2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 72
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
     },
     __self: this
   }, "Tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "tech-list tools",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 75
     },
     __self: this
   }, "Codepen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 76
     },
     __self: this
   }, "Create React App"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 77
     },
     __self: this
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 78
     },
     __self: this
   }, "Linux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 79
     },
     __self: this
   }, "Next"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 80
     },
     __self: this
   }, "Terminal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 81
     },
     __self: this
   }, "VS Code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 82
     },
     __self: this
   }, "Windows Subsystem for Linux"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "box-header",
+    className: "box-header feature-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 87
     },
     __self: this
   }, "Featured Work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "works-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-wrap pixel",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10955,28 +11013,28 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     className: "project-image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 90
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "project-name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 96
     },
     __self: this
   }, "Pixel Art Maker"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "project-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 97
     },
     __self: this
   }, "JavaScript pixel art design app"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -10984,28 +11042,28 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 98
     },
     __self: this
   }, "Live Demo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 105
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-wrap calculator",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 107
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 108
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -11014,28 +11072,28 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     className: "project-image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 109
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "project-name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 115
     },
     __self: this
   }, "Calculator"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "project-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 116
     },
     __self: this
   }, "Calculator written in JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -11043,21 +11101,21 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 117
     },
     __self: this
   }, "Live Demo"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-wrap week-to-week",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 126
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -11066,28 +11124,28 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     className: "project-image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 127
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 132
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "project-name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 133
     },
     __self: this
   }, "Week-to-Week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "project-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 134
     },
     __self: this
   }, "Ruby on Rails todo app with Google Calendar integration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -11095,13 +11153,13 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 137
     },
     __self: this
   }, "Live Demo"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 147
     },
     __self: this
   }));

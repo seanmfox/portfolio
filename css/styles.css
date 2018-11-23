@@ -205,12 +205,19 @@ hr {
 }
 
 .box-header {
-  border-radius: 10px 10px 0 0;
   border: solid 1px;
   text-align: center;
   color: black;
   font-family: "Julius Sans One", sans-serif;
   margin-bottom: 0;
+}
+
+.technologies-title {
+  border-radius: 10px 10px 0 0;
+}
+
+.feature-title {
+  border-radius: 10px;
 }
 
 .technologies-container div:first-child {
@@ -225,6 +232,12 @@ hr {
   list-style-type: none;
   padding: 0;
   font-size: 20px;
+}
+
+.dev-activity-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 footer {

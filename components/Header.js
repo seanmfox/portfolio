@@ -28,12 +28,12 @@ const Header = () => (
                 <a className="right-header-text">Home</a>
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link href="/about">
                 <a className="right-header-text">About</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/projects">
                 <a className="right-header-text">Projects</a>
               </Link>

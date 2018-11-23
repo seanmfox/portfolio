@@ -6,6 +6,19 @@ import Footer from "../components/Footer";
 export default () => (
   <div id="app">
     <Head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-129696464-1"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129696464-1');`
+        }}
+      />
       <title>Sean Fox - Web Developer</title>
       <link
         href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700"
@@ -27,9 +40,10 @@ export default () => (
     <Header />
     <main>
       <div>
-        <h2 className="box-header">Technologies</h2>
+        <h2 className="box-header technologies-title">Technologies</h2>
         <div className="technologies-container">
           <div className="technology-wrap">
+            <i class="fas fa-laptop-code fa-2x" />
             <h3>Front End</h3>
             <ul className="tech-list fe">
               <li>Bootstrap</li>
@@ -42,6 +56,7 @@ export default () => (
             </ul>
           </div>
           <div className="technology-wrap">
+            <i class="fas fa-database fa-2x" />
             <h3>Back End</h3>
             <ul className="tech-list be">
               <li>Express</li>
@@ -54,6 +69,7 @@ export default () => (
             </ul>
           </div>
           <div className="technology-wrap">
+            <i class="fas fa-toolbox fa-2x" />
             <h3>Tools</h3>
             <ul className="tech-list tools">
               <li>Codepen</li>
@@ -68,7 +84,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <h2 className="box-header">Featured Work</h2>
+      <h2 className="box-header feature-title">Featured Work</h2>
       <div className="works-container">
         <div className="project-wrap pixel">
           <img
@@ -115,7 +131,9 @@ export default () => (
           />
           <div className="project-details">
             <h3 className="project-name">Week-to-Week</h3>
-            <p className="project-desc">Ruby on Rails todo app with Google Calendar integration</p>
+            <p className="project-desc">
+              Ruby on Rails todo app with Google Calendar integration
+            </p>
             <a
               href="https://week-to-week.herokuapp.com/users/sign_in"
               target="_blank"
