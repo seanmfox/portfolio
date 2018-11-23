@@ -10781,7 +10781,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fas fa-laptop-code fa-2x",
+    className: "fas fa-laptop-code fa-2x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -10850,7 +10850,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fas fa-database fa-2x",
+    className: "fas fa-database fa-2x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
@@ -10919,7 +10919,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fas fa-toolbox fa-2x",
+    className: "fas fa-toolbox fa-2x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72

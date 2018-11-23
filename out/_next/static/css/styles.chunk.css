@@ -80,7 +80,7 @@ input[type="checkbox"]:checked ~ .hamburger {
 }
 
 .nav-links {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   margin: -100px 0 0 0;
@@ -95,7 +95,12 @@ input[type="checkbox"]:checked ~ .hamburger {
 }
 
 .nav-links a {
-  color: black;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.nav-links li {
+  margin-bottom: 15px;
 }
 
 input[type="checkbox"]:checked ~ ul {
@@ -294,6 +299,12 @@ footer {
 
   .nav-links li {
     margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .nav-links a {
+    color: black;
+    font-size: 1.5rem
   }
 
   .technologies-container, .works-container {

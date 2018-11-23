@@ -43,7 +43,7 @@ export default () => (
         <h2 className="box-header technologies-title">Technologies</h2>
         <div className="technologies-container">
           <div className="technology-wrap">
-            <i class="fas fa-laptop-code fa-2x" />
+            <i className="fas fa-laptop-code fa-2x" />
             <h3>Front End</h3>
             <ul className="tech-list fe">
               <li>Bootstrap</li>
@@ -56,7 +56,7 @@ export default () => (
             </ul>
           </div>
           <div className="technology-wrap">
-            <i class="fas fa-database fa-2x" />
+            <i className="fas fa-database fa-2x" />
             <h3>Back End</h3>
             <ul className="tech-list be">
               <li>Express</li>
@@ -69,7 +69,7 @@ export default () => (
             </ul>
           </div>
           <div className="technology-wrap">
-            <i class="fas fa-toolbox fa-2x" />
+            <i className="fas fa-toolbox fa-2x" />
             <h3>Tools</h3>
             <ul className="tech-list tools">
               <li>Codepen</li>
