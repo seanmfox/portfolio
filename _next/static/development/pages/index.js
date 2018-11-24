@@ -11018,6 +11018,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
@@ -11077,6 +11078,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 114
@@ -11129,6 +11131,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132
