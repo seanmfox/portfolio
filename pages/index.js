@@ -92,7 +92,7 @@ export default () => (
             alt="Pixel Art Maker Project"
             className="project-image"
           />
-          <div className="project-details">
+          <div className="project-details" onClick="">
             <h3 className="project-name">Pixel Art Maker</h3>
             <p className="project-desc">JavaScript pixel art design app</p>
             <a
@@ -111,7 +111,7 @@ export default () => (
             alt="CodePen Calculator"
             className="project-image"
           />
-          <div className="project-details">
+          <div className="project-details" onClick="">
             <h3 className="project-name">Calculator</h3>
             <p className="project-desc">Calculator written in JavaScript</p>
             <a
@@ -129,7 +129,7 @@ export default () => (
             alt="Ruby on Rails Planner App"
             className="project-image"
           />
-          <div className="project-details">
+          <div className="project-details" onClick="">
             <h3 className="project-name">Week-to-Week</h3>
             <p className="project-desc">
               Ruby on Rails todo app with Google Calendar integration
