@@ -92,7 +92,7 @@ export default () => (
             alt="Pixel Art Maker Project"
             className="project-image"
           />
-          <div className="project-details" onClick="return true">
+          <div className="project-details" onClick={() => {return true}}>
             <h3 className="project-name">Pixel Art Maker</h3>
             <p className="project-desc">JavaScript pixel art design app</p>
             <a
@@ -102,16 +102,16 @@ export default () => (
               Live Demo
             </a>
           </div>
-          <div className="overlay" onClick="return true" />
+          <div className="overlay"/>
         </div>
         <div className="project-wrap calculator">
-          <div className="overlay" onClick="return true" />
+          <div className="overlay" />
           <img
             src="../static/img/calculator.png"
             alt="CodePen Calculator"
             className="project-image"
           />
-          <div className="project-details" onClick="">
+          <div className="project-details" onClick={() => {return true}}>
             <h3 className="project-name">Calculator</h3>
             <p className="project-desc">Calculator written in JavaScript</p>
             <a
@@ -123,13 +123,13 @@ export default () => (
           </div>
         </div>
         <div className="project-wrap week-to-week">
-          <div className="overlay" onClick="" />
+          <div className="overlay"/>
           <img
             src="../static/img/week-to-week.png"
             alt="Ruby on Rails Planner App"
             className="project-image"
           />
-          <div className="project-details" onClick="">
+          <div className="project-details" onClick={() => {return true}}>
             <h3 className="project-name">Week-to-Week</h3>
             <p className="project-desc">
               Ruby on Rails todo app with Google Calendar integration
