@@ -11018,7 +11018,9 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
-    onClick: "return true",
+    onClick: function onClick() {
+      return true;
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
@@ -11048,7 +11050,6 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, "Live Demo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
-    onClick: "return true",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 105
@@ -11063,7 +11064,6 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
-    onClick: "return true",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108
@@ -11080,7 +11080,9 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
-    onClick: "",
+    onClick: function onClick() {
+      return true;
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 114
@@ -11117,7 +11119,6 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
-    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 126
@@ -11134,7 +11135,9 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-details",
-    onClick: "",
+    onClick: function onClick() {
+      return true;
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132
