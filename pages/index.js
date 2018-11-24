@@ -102,10 +102,10 @@ export default () => (
               Live Demo
             </a>
           </div>
-          <div className="overlay" />
+          <div className="overlay" onClick="" />
         </div>
         <div className="project-wrap calculator">
-          <div className="overlay" />
+          <div className="overlay" onClick="" />
           <img
             src="../static/img/calculator.png"
             alt="CodePen Calculator"
@@ -123,7 +123,7 @@ export default () => (
           </div>
         </div>
         <div className="project-wrap week-to-week">
-          <div className="overlay" />
+          <div className="overlay" onClick="" />
           <img
             src="../static/img/week-to-week.png"
             alt="Ruby on Rails Planner App"
