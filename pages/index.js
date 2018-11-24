@@ -92,7 +92,7 @@ export default () => (
             alt="Pixel Art Maker Project"
             className="project-image"
           />
-          <div className="project-details" onClick="">
+          <div className="project-details" onClick="return true">
             <h3 className="project-name">Pixel Art Maker</h3>
             <p className="project-desc">JavaScript pixel art design app</p>
             <a
@@ -102,10 +102,10 @@ export default () => (
               Live Demo
             </a>
           </div>
-          <div className="overlay" onClick="" />
+          <div className="overlay" onClick="return true" />
         </div>
         <div className="project-wrap calculator">
-          <div className="overlay" onClick="" />
+          <div className="overlay" onClick="return true" />
           <img
             src="../static/img/calculator.png"
             alt="CodePen Calculator"
