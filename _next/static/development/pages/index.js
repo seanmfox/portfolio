@@ -11048,6 +11048,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, "Live Demo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 105
@@ -11062,6 +11063,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108
@@ -11115,6 +11117,7 @@ var _jsxFileName = "/mnt/c/Users/User/Documents/Projects/portfolio/pages/index.j
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
+    onClick: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 126
