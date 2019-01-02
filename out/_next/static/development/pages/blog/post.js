@@ -140,11 +140,7 @@ var Header = function Header() {
     href: "/about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "right-header-text"
-  }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/blog"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "right-header-text"
-  }, "Blog"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
+  }, "About"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
