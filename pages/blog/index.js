@@ -13,7 +13,7 @@ export default class Index extends PureComponent {
 	});
 
 	render() {
-		const { posts = [] } = this.props;
+    const { posts = [] } = this.props;
 		return (
 			<div id='app'>
 				<Head>
