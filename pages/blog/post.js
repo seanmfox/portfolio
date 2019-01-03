@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, {PureComponent} from 'react';
 import BlockContent from '@sanity/block-content-to-react';
 import imageUrlBuilder from '@sanity/image-url';
 import { format } from 'date-fns';
@@ -95,7 +95,6 @@ export default class BlogPost extends PureComponent {
 						rel='stylesheet'
 						href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css'
 					/>
-					>
 					<meta name='viewport' content='width=device-width, initial-scale=1' />
 					<meta charSet='utf-8' />
 				</Head>
