@@ -38,11 +38,11 @@ const Header = () => (
                 <a className="right-header-text">Projects</a>
               </Link>
             </li> */}
-						{/* <li>
+						<li>
 							<Link href='/blog'>
 								<a className='right-header-text'>Blog</a>
 							</Link>
-						</li> */}
+						</li>
 					</ul>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import React, { PureComponent } from 'react';
 import BlockContent from '@sanity/block-content-to-react';
 import imageUrlBuilder from '@sanity/image-url';
 import { format } from 'date-fns';
@@ -7,10 +7,7 @@ import Link from 'next/link';
 import Highlight from 'react-highlight';
 import client from '../../client';
 import CommaJoiner from '../../components/CommaJoiner';
-import '../../css/styles.css';
-import Head from 'next/head';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Layout from '../../components/Layout';
 
 function urlFor(source) {
 	return imageUrlBuilder(client).image(source);
@@ -38,7 +35,9 @@ export default class BlogPost extends PureComponent {
           "categories": categories[]->title,
           "authorImage": author->image,
           body,
-          _updatedAt
+					_updatedAt,
+					publishedAt,
+					mainImage
         }`,
 					{ slug }
 			  )
@@ -53,80 +52,33 @@ export default class BlogPost extends PureComponent {
 			categories = [],
 			authorImage = {},
 			body = [],
-			_updatedAt = ''
+			publishedAt = '',
+			_updatedAt = '',
+			mainImage = {}
 		} = this.props.post;
 
 		if (!_updatedAt) {
 			return <Error statusCode={404} />;
 		}
-
 		return (
-			<div id='app'>
-				<Head>
-					<script
-						async
-						src='https://www.googletagmanager.com/gtag/js?id=UA-129696464-1'
-					/>
-					<script
-						dangerouslySetInnerHTML={{
-							__html: `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129696464-1');`
-						}}
-					/>
-					<title>Sean Fox - Web Developer</title>
-					<link
-						href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700'
-						rel='stylesheet'
-					/>
-					<link
-						href='https://fonts.googleapis.com/css?family=Julius+Sans+One'
-						rel='stylesheet'
-					/>
-					<link
-						rel='stylesheet'
-						href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
-						integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
-						crossOrigin='anonymous'
-					/>
-					<link
-						rel='stylesheet'
-						href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css'
-					/>
-					<meta name='viewport' content='width=device-width, initial-scale=1' />
-					<meta charSet='utf-8' />
-				</Head>
-				<Header />
-				<main>
-					<h1>{title}</h1>
-					By {name}. Updated {format(_updatedAt, 'DD. MMMM, YYYY')}.{' '}
-					{categories.length > 0 && (
-						<span>
-							Posted in <CommaJoiner list={categories} />
-						</span>
-					)}
-					<div>
-						<img
-							src={urlFor(authorImage)
-								.width(50)
-								.url()}
-						/>
-					</div>
+			<Layout>
+				<main className='post-container'>
+					<img className='main-post-image' src={urlFor(mainImage).url()} />
+					<h1 className='post-title'>{title}</h1>
+					<p className='post-date'>
+						Posted {format(publishedAt, 'MMM Do, YYYY')}
+					</p>
 					<BlockContent
+						className='post-body'
 						blocks={body}
 						imageOptions={{ w: 320, h: 240, fit: 'max' }}
 						projectId={client.clientConfig.projectId}
 						dataset={client.clientConfig.dataset}
 						serializers={serializers}
+						renderContainerOnSingleChild={true}
 					/>
-					<Link href='/blog'>
-						<a>Back to blog list</a>
-					</Link>
 				</main>
-				<Footer />
-			</div>
+			</Layout>
 		);
 	}
 }

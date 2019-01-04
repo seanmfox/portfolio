@@ -40,7 +40,12 @@ export default {
     {
       name: 'publishedAt',
       title: 'Published at',
-      type: 'datetime'
+      type: 'date'
+    },
+    {
+      name: 'postSummary',
+      title: 'Post Summary',
+      type: 'string'
     },
     {
       name: 'body',
