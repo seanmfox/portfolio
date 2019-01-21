@@ -18,7 +18,7 @@ export default class Index extends PureComponent {
 		const { posts = [] } = this.props;
 		return (
 			<Layout>
-				<main>
+				<main className='postlist-container'>
 					{posts.map(
 						({
 							_id,
@@ -34,7 +34,7 @@ export default class Index extends PureComponent {
 										className='post-preview-image'
 										src={urlFor(mainImage).url()}
 									/>
-									<Link
+									<Link prefetch
 										as={`/blog/${slug.current}`}
 										href={`/blog/post?slug=${slug.current}`}
 									>

@@ -112,11 +112,14 @@ input[type='checkbox']:checked ~ ul {
 
 main {
 	flex: 1;
-	padding: 0 10px;
 }
 
-.greeting {
+.greeting-container {
 	text-align: center;
+}
+
+.greeting-image {
+	width: 300px;
 }
 
 hr {
@@ -129,7 +132,11 @@ hr {
 	width: 100%;
 }
 
-.technologies-container {
+.technologies-container, .works-container, .about-container, .postlist-container, .post-container {
+	margin: 0 20px;
+}
+
+.technologies-list-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -139,7 +146,7 @@ hr {
 	border-right: solid 40px #488ccf;
 }
 
-.works-container {
+.works-list-container {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -227,11 +234,11 @@ hr {
 	border-radius: 10px;
 }
 
-.technologies-container div:first-child {
+.technologies-list-container div:first-child {
 	border-bottom: solid #488ccf;
 }
 
-.technologies-container div:last-child {
+.technologies-list-container div:last-child {
 	border-top: solid #488ccf;
 }
 
@@ -344,8 +351,12 @@ footer {
 		font-size: 1.5rem;
 	}
 
-	.technologies-container,
-	.works-container {
+	.greeting-image {
+		width: 700px;
+	}
+
+	.technologies-list-container,
+	.works-list-container {
 		flex-wrap: nowrap;
 	}
 
@@ -363,12 +374,12 @@ footer {
 		height: 100%;
 	}
 
-	.technologies-container div:first-child {
+	.technologies-list-container div:first-child {
 		border-bottom: none;
 		border-right: solid #488ccf;
 	}
 
-	.technologies-container div:last-child {
+	.technologies-list-container div:last-child {
 		border-top: none;
 		border-left: solid #488ccf;
   }

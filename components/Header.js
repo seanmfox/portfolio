@@ -24,22 +24,22 @@ const Header = () => (
 					</div>
 					<ul className='nav-links'>
 						<li>
-							<Link href='/'>
+							<Link prefetch href='/'>
 								<a className='right-header-text'>Home</a>
 							</Link>
 						</li>
 						<li>
-							<Link href='/about'>
+							<Link prefetch href='/about'>
 								<a className='right-header-text'>About</a>
 							</Link>
 						</li>
 						{/* <li>
-              <Link href="/projects">
+              <Link prefetch href="/projects">
                 <a className="right-header-text">Projects</a>
               </Link>
             </li> */}
 						<li>
-							<Link href='/blog'>
+							<Link prefetch href='/blog'>
 								<a className='right-header-text'>Blog</a>
 							</Link>
 						</li>

@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 
 export default () => (
 	<Layout>
-		<main>
+		<main className='about-container'>
 			<h2>My Story</h2>
 			<img
 				src='../static/img/dev-activity.svg'
