@@ -1,22 +1,24 @@
 import Layout from '../components/Layout';
 const featuredProjectData = [
 	{
-		projectName: 'Time Tracker',
-		projectDescription:
-			'Activity tracking app built with React on the frontend running on a Node.js server with an Express framework and MongoDB database',
-		className: 'time-tracker',
-		imageSource: 'time-tracker.png',
-		imageAltText: 'Time Tracker App',
-		projectLink: 'https://opptimetracker.com'
-	},
-	{
 		projectName: 'Trail Finder',
 		projectDescription:
 			'React app hosted on Netlify for finding local running trails	completed as a final project for the Udacity Frontend Nanodegree',
 		className: 'trail-finder',
 		imageSource: 'trail-finder.png',
 		imageAltText: 'Trail Finder App',
-		projectLink: 'https://trail-finder.netlify.com'
+		projectLink: 'https://trail-finder.netlify.com',
+		sourceCode: 'https://github.com/seanmfox/trail-finder'
+	},
+	{
+		projectName: 'Time Tracker',
+		projectDescription:
+			'Activity tracking app built with React on the frontend running on a Node.js server',
+		className: 'time-tracker',
+		imageSource: 'time-tracker.png',
+		imageAltText: 'Time Tracker App',
+		projectLink: 'https://opptimetracker.com',
+		sourceCode: 'https://github.com/seanmfox/time-tracker'
 	},
 	{
 		projectName: 'Week-to-Week',
@@ -25,7 +27,8 @@ const featuredProjectData = [
 		className: 'week-to-week',
 		imageSource: 'week-to-week.png',
 		imageAltText: 'Week-to-Week',
-		projectLink: 'https://week-to-week.herokuapp.com/users/sign_in'
+		projectLink: 'https://week-to-week.herokuapp.com/users/sign_in',
+		sourceCode: 'https://github.com/seanmfox/scheduler'
 	}
 ];
 
@@ -33,8 +36,8 @@ export default () => (
 	<Layout>
 		<main>
 			<div className='greeting-container'>
-				{/* <p>Welcome and glad to have you here.</p> */}
-				<img className='greeting-image' src='../static/img/programming.svg'/>
+				<p className='greeting-tagline'>Developer. Learner. Educator.</p>
+				<img className='greeting-image' src='../static/img/programming.svg' />
 			</div>
 			<div className='technologies-container'>
 				<h2 className='box-header technologies-title'>Technologies</h2>
@@ -82,31 +85,37 @@ export default () => (
 				</div>
 			</div>
 			<div className='works-container'>
-			<h2 className='box-header feature-title'>Featured Work</h2>
-			<div className='works-list-container'>
-				{featuredProjectData.map(project => (
-					<div key={project.className} className={`project-wrap pixel ${project.className}`}>
-						<img
-							src={`../static/img/${project.imageSource}`}
-							alt={`${project.imageAltText}`}
-							className='project-image'
-						/>
+				<h2 className='box-header feature-title'>Featured Work</h2>
+				<div className='works-list-container'>
+					{featuredProjectData.map(project => (
 						<div
-							className='project-details'
-							onClick={() => {
-								return true;
-							}}
+							key={project.className}
+							className={`project-wrap pixel ${project.className}`}
 						>
-							<h3 className='project-name'>{project.projectName}</h3>
-							<p className='project-desc'>{project.projectDescription}</p>
-							<a href={project.projectLink} target='_blank'>
-								Live Demo
-							</a>
+							<img
+								src={`../static/img/${project.imageSource}`}
+								alt={`${project.imageAltText}`}
+								className='project-image'
+							/>
+							<div
+								className='project-details'
+								onClick={() => {
+									return true;
+								}}
+							>
+								<h3 className='project-name'>{project.projectName}</h3>
+								<p className='project-desc'>{project.projectDescription}</p>
+								<a href={project.projectLink} target='_blank'>
+									Live Demo
+								</a>
+								<a href={project.sourceCode} target='_blank'>
+									Source Code
+								</a>
+							</div>
+							<div className='overlay' />
 						</div>
-						<div className='overlay' />
-					</div>
-				))}
-			</div>
+					))}
+				</div>
 			</div>
 		</main>
 	</Layout>

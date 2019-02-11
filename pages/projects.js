@@ -6,7 +6,8 @@ const projectData = [
 		className: 'pixel',
 		imageSource: 'pixel.png',
 		imageAltText: 'Pixel Art Maker Project',
-		projectLink: 'https://protected-beyond-69634.herokuapp.com/'
+		projectLink: 'https://protected-beyond-69634.herokuapp.com/',
+		sourceCode: 'https://github.com/seanmfox/pixel-art-maker'
 	},
 	{
 		projectName: 'Calculator',
@@ -14,7 +15,8 @@ const projectData = [
 		className: 'calculator',
 		imageSource: 'calculator.png',
 		imageAltText: 'CodePen Calculator',
-		projectLink: 'https://codepen.io/geekypghrunner/full/KyaexY/'
+		projectLink: 'https://codepen.io/geekypghrunner/full/KyaexY/',
+		sourceCode: 'https://codepen.io/geekypghrunner/pen/KyaexY'
 	}
 ];
 
@@ -41,6 +43,12 @@ export default () => (
 							target='_blank'
 						>
 							Live Demo
+						</a>
+						<a
+							href={project.sourceCode}
+							target='_blank'
+						>
+							Source Cde
 						</a>
 					</div>
 					<div className='overlay' />

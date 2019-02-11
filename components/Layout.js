@@ -32,7 +32,7 @@ export default ({ children }) => (
 				href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css'
 			/>
 			<link
-				href='https://fonts.googleapis.com/css?family=Thasadith|Open+Sans|Roboto|Julius+Sans+One|Cinzel+Decorative:400,700'
+				href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Thasadith|Open+Sans|Roboto|Julius+Sans+One|Cinzel+Decorative:400,700'
 				rel='stylesheet'
 			/>
 			<meta name='viewport' content='width=device-width, initial-scale=1' />
