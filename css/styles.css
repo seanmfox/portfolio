@@ -139,7 +139,19 @@ header hr {
 	width: 100%;
 }
 
-.technologies-container, .works-container, .about-container, .postlist-container, .post-container {
+.current-route {
+	color: white;
+	background: #488ccf;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+.technologies-container,
+.works-container,
+.about-container,
+.postlist-container,
+.post-container,
+.projects-container {
 	margin: 0 20px;
 }
 
@@ -159,7 +171,7 @@ header hr {
 }
 
 .technology-wrap,
-.project-wrap {
+.featured-project-wrap {
 	width: 350px;
 	text-align: center;
 	position: relative;
@@ -181,17 +193,17 @@ header hr {
 }
 
 .overlay:hover,
-.project-details:hover,
-.project-details:active {
+.featured-project-details:hover,
+.featured-project-details:active {
 	transition: opacity 0.5s;
 	opacity: 1;
 }
 
-.project-wrap {
+.featured-project-wrap {
 	margin: 20px;
 }
 
-.project-details {
+.featured-project-details {
 	height: 100%;
 	width: 100%;
 	z-index: 1;
@@ -205,24 +217,24 @@ header hr {
 	color: white;
 }
 
-.project-details a {
+.featured-project-details a {
 	color: white;
 	display: block;
 }
 
-.project-image {
+.featured-project-image {
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
 }
 
-.project-name {
+.featured-project-name {
 	font-family: 'Cinzel Decorative', cursive;
 	margin: 5px 0;
 	padding: 0;
 }
 
-.project-desc {
+.featured-project-desc {
 	margin-top: 5px;
 	font-size: 1rem;
 }
@@ -278,11 +290,14 @@ footer {
 	color: white;
 }
 
+/* Blog */
+
 .post-list {
 	list-style: none;
 }
 
-.main-post-image, .post-preview-image {
+.main-post-image,
+.post-preview-image {
 	width: 100%;
 }
 
@@ -291,31 +306,76 @@ footer {
 	margin-bottom: 10px;
 }
 
-.post-title, .post-title-link {
-  font-size: 2rem;
-  margin-bottom: 0;
-  font-family: 'Roboto', sans-serif;
+.post-title,
+.post-title-link {
+	font-size: 2rem;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .post-title-link {
-  color: black;
-  text-decoration: none;
-  margin-top: 10px;
+	color: black;
+	text-decoration: none;
+	margin-top: 10px;
 }
 
 .post-date {
-  font-size: 15px;
-  margin-top: 0;
-  font-family: 'Thasadith', sans-serif;
+	font-size: 15px;
+	margin-top: 0;
+	font-family: 'Thasadith', sans-serif;
 }
 
-.post-body, .post-summary {
-  font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
+.post-body,
+.post-summary {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .post-summary {
-  margin-top: 8px;
+	margin-top: 8px;
+}
+
+/* Projects */
+
+.project-name {
+	text-align: center;
+}
+
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-image {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.project-name {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.project-details {
+	flex-grow: 1;
+}
+
+.project-desc {
+	font-size: 1.25rem;
+}
+
+.project-details a {
+	display: block;
+	text-align: center;
+}
+
+.project-details a:last-child {
+	margin-bottom: 10px;
+}
+
+.project-container:not(:last-child) {
+	border-bottom: solid 1px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 @media screen and (min-width: 730px) {
@@ -375,20 +435,20 @@ footer {
 	}
 
 	.technology-wrap,
-	.project-wrap {
+	.featured-project-wrap {
 		width: 33.3%;
 	}
 
-	.project-name {
+	.featured-project-name {
 		margin-top: 20px;
 	}
 
-	.project-image {
+	.featured-project-image {
 		width: 100%;
 		height: 100%;
 	}
 
-	.project-desc {
+	.featured-project-desc {
 		font-size: 1.25rem;
 	}
 
@@ -400,13 +460,14 @@ footer {
 	.technologies-list-container div:last-child {
 		border-top: none;
 		border-left: solid #488ccf;
-  }
-  
-  .post-list, .post-container {
-    margin: 0 auto;
-    width: 700px;
 	}
-	
+
+	.post-list,
+	.post-container {
+		margin: 0 auto;
+		width: 700px;
+	}
+
 	.post-preview-image {
 		width: 200px;
 		float: right;
@@ -416,11 +477,30 @@ footer {
 	.main-post-image {
 		height: 400px;
 	}
+
+	.projects-container {
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	.change-order {
+		flex-direction: row-reverse;
+	}
+
+	.project-details {
+		padding-left: 20px;
+		width: 350px;
+	}
+
+	.project-image {
+		width: 300px;
+	}
 }
 
 @media screen and (min-width: 1230px) {
 	nav,
-	main, .postlist-container {
+	main,
+	.postlist-container {
 		width: 1200px;
 		margin: 0 auto;
 	}
@@ -433,8 +513,12 @@ footer {
 		margin-top: 20px;
 	}
 
-	.project-image {
+	.featured-project-image {
 		width: 100%;
 		height: 100%;
+	}
+
+	.projects-container {
+		width: 1000px;
 	}
 }

@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import React from 'react';
+import { withRouter } from 'next/router';
 
-const Header = () => (
+const Header = props => (
 	<header>
 		<nav>
 			<div className='left-header'>
@@ -25,22 +27,40 @@ const Header = () => (
 					<ul className='nav-links'>
 						<li>
 							<Link prefetch href='/'>
-								<a className='right-header-text'>Home</a>
+								<a
+									className={`right-header-text ${
+										props.router.asPath === '/' ? 'current-route' : null
+									}`}
+								>
+									Home
+								</a>
 							</Link>
 						</li>
 						<li>
 							<Link prefetch href='/about'>
-								<a className='right-header-text'>About</a>
+								<a
+									className={`right-header-text ${
+										props.router.asPath === '/about' ? 'current-route' : null
+									}`}
+								>
+									About
+								</a>
 							</Link>
 						</li>
-						{/* <li>
+						<li>
               <Link prefetch href="/projects">
-                <a className="right-header-text">Projects</a>
+                <a className={`right-header-text ${props.router.asPath === '/projects' ? 'current-route': null}`}>Projects</a>
               </Link>
-            </li> */}
+            </li>
 						<li>
 							<Link prefetch href='/blog'>
-								<a className='right-header-text'>Blog</a>
+								<a
+									className={`right-header-text ${
+										/\/blog/.test(props.router.asPath) ? 'current-route' : null
+									}`}
+								>
+									Blog
+								</a>
 							</Link>
 						</li>
 					</ul>
@@ -51,4 +71,6 @@ const Header = () => (
 	</header>
 );
 
-export default Header;
+export default withRouter(Header);
+
+// Header;

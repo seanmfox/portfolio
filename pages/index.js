@@ -13,7 +13,7 @@ const featuredProjectData = [
 	{
 		projectName: 'Time Tracker',
 		projectDescription:
-			'Activity tracking app built with React on the frontend running on a Node.js server',
+			'Activity tracking app built with React running on a Node.js server',
 		className: 'time-tracker',
 		imageSource: 'time-tracker.png',
 		imageAltText: 'Time Tracker App',
@@ -34,7 +34,7 @@ const featuredProjectData = [
 
 export default () => (
 	<Layout>
-		<main>
+		<main className='home-container'>
 			<div className='greeting-container'>
 				<p className='greeting-tagline'>Developer. Learner. Educator.</p>
 				<img className='greeting-image' src='../static/img/programming.svg' />
@@ -90,21 +90,21 @@ export default () => (
 					{featuredProjectData.map(project => (
 						<div
 							key={project.className}
-							className={`project-wrap pixel ${project.className}`}
+							className={`featured-project-wrap ${project.className}`}
 						>
 							<img
 								src={`../static/img/${project.imageSource}`}
 								alt={`${project.imageAltText}`}
-								className='project-image'
+								className='featured-project-image'
 							/>
 							<div
-								className='project-details'
+								className='featured-project-details'
 								onClick={() => {
 									return true;
 								}}
 							>
-								<h3 className='project-name'>{project.projectName}</h3>
-								<p className='project-desc'>{project.projectDescription}</p>
+								<h3 className='featured-project-name'>{project.projectName}</h3>
+								<p className='featured-project-desc'>{project.projectDescription}</p>
 								<a href={project.projectLink} target='_blank'>
 									Live Demo
 								</a>
