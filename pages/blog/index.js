@@ -11,7 +11,7 @@ function urlFor(source) {
 
 export default class Index extends PureComponent {
 	static getInitialProps = async () => ({
-		posts: await client.fetch(`*[_type == "post"]`)
+		posts: await client.fetch(`*[_type == "post"] | order(publishedAt desc)`)
 	});
 
 	render() {

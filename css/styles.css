@@ -335,6 +335,16 @@ footer {
 	margin-top: 8px;
 }
 
+.post-body figure {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.post-body figure img {
+	width: 100%;
+}
+
 /* Projects */
 
 .project-name {
