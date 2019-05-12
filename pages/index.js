@@ -3,7 +3,7 @@ const featuredProjectData = [
   {
     projectName: "Trail Finder",
     projectDescription:
-      "React app hosted on Netlify for finding local running trails	completed as a final project for the Udacity Frontend Nanodegree",
+      "React app hosted on Netlify for finding local running trails",
     className: "trail-finder",
     imageSource: "trail-finder.png",
     imageAltText: "Trail Finder App",
