@@ -32,11 +32,12 @@ export default () => (
 				production.
 			</p>
 			<p>
-				The time has now come to prepare for a career shift. Teaching is
+				The time then came to prepare for a career shift. Teaching is
 				fulfilling in its own ways, but being a life-long learner who loves to
-				problem-solve is making me drawn toward the life of a web developer.
-				Looking to hire? Head on down to the links in the footer and send me a
-				message!
+				problem-solve has made me drawn toward the life of a web developer.  Since June of 2019,
+				I have been working on as full-stack engineer refining my front-end skills while also
+				developing talents as a Python programmer.  While working in healthcare tech during the day,
+				ed tech and fin tech are definite areas that intrigue me in my off hours.
 			</p>
 		</main>
 	</Layout>

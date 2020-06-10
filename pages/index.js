@@ -60,13 +60,18 @@ export default () => (
             <i className="fas fa-database fa-2x" />
             <h3>Back End</h3>
             <ul className="tech-list be">
+              <li>C++</li>
+              <li>Django</li>
               <li>Express</li>
+              <li>Java</li>
               <li>MongoDB</li>
               <li>Mongoose</li>
               <li>MySQL</li>
               <li>Node</li>
               <li>Postgresql</li>
+              <li>Python</li>
               <li>Ruby on Rails</li>
+              <li>Visual Basic</li>
             </ul>
           </div>
           <div className="technology-wrap">
@@ -76,6 +81,7 @@ export default () => (
               <li>Codepen</li>
               <li>Create React App</li>
               <li>Github</li>
+              <li>Google Cloud Console</li>
               <li>Linux</li>
               <li>Next</li>
               <li>Terminal</li>

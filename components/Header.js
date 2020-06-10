@@ -58,7 +58,7 @@ const Header = props => (
                 </a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link prefetch href="/blog">
                 <a
                   className={`right-header-text ${
@@ -68,7 +68,7 @@ const Header = props => (
                   Blog
                 </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
